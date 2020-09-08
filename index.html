@@ -10,7 +10,9 @@
       href="./fontawesome-free-5.12.0-web/css/all.min.css"
     /> -->
     <script src="https://kit.fontawesome.com/87e8e56679.js" crossorigin="anonymous"></script>
+
     <!-- styles -->
+    <link href="dist/lity.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
@@ -72,17 +74,31 @@
             <p> Credits include: Def Leppard, Andy Grammer, Melissa Etheridge, Maroon 5, A Perfect Circle, Bush, Steve Vai, Dweezil Zappa and more.
           </div>
             <div class="images-music">
-              <img class="img1"src="./images/roshGtr1.jpg" alt="guitar1">
-              <img class="img2"src="./images/roshGtr2.jpg" alt="guitar1">
-              <img class="img3"src="./images/roshdrums1.jpg" alt="drums1">
-              <img class="img4"src="./images/roshdrums2.jpg" alt="drums2">
+              <a href="./images/roshGtr1.jpg"  data-lity >
+                <img class="img1" src="./images/roshGtr1.jpg" alt="guitar1">
+              </a>
+              <a href="./images/roshGtr2.jpg" data-lity>
+                <img class="img2" src="./images/roshGtr2.jpg" alt="guitar1">
+              </a>
+              <a href="./images/roshdrums1.jpg" data-lity>
+                <img class="img3" src="./images/roshdrums1.jpg" alt="drums1">
+              </a>
+              <a href="./images/roshdrums2.jpg" data-lity>
+                <img class="img4" src="./images/roshdrums2.jpg" alt="drums2">
+              </a>
+              <a href="https://www.youtube.com/E6vGAZkcHjQ" data-lity>
+                <img src="http://img.youtube.com/vi/E6vGAZkcHjQ/0.jpg" alt="">
+              </a>
+              <a href="https://www.youtube.com/E6vGAZkcHjQ" data-lity>
+                <img src="http://img.youtube.com/vi/E6vGAZkcHjQ/0.jpg" alt="">
+              </a>
 
-              <div class="youtube video1">
+              <!-- <div class="youtube video1">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/E6vGAZkcHjQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="video"></iframe>
               </div>
               <div class="youtube video2">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/E6vGAZkcHjQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="video"></iframe>
-              </div>
+              </div> -->
 
               </div>
             </div>
@@ -148,6 +164,17 @@
       <i class="fas fa-arrow-up"></i>
     </a>
     <!-- javascript-->
+    <script src="vendor/jquery.js"></script>
+    <script src="dist/lity.js"></script>
     <script src="app.js"></script>
+
+    <script>
+    // $(document).on('click', '[data-toggle="lightbox"]', function(event){
+    //   event.preventDefault();
+    //   $(this).ekkoLightbox();
+    // });
+
+
+    </script>
   </body>
 </html>
