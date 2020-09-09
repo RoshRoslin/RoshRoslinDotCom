@@ -185,12 +185,7 @@ p {
   margin: 0 auto;
   max-width: 1170px;
 }
-@media screen and (min-width: 992px) {
-  .section-center {
-    width: 95vw;
-  }
 
-}
 
 
 
@@ -310,7 +305,7 @@ nav {
 
 #developer {
   height: 100vh;
-  min-height: 80rem;
+  min-height: 70rem;
 }
 
 .skills {
@@ -514,13 +509,25 @@ footer p {
   .links a:hover {
     color: var(--clr-white);
   }
+}
 
-
+@media screen and (min-width: 992px) {
+  .section-center {
+    width: 95vw;
+  }
 
 }
 
+@media screen and (min-width: 1200px) {
+  .skills, .developer-projects {
+
+  }
+  #developer {
+    min-height: 80rem;
+  }
 
 
+}
 
 
 
