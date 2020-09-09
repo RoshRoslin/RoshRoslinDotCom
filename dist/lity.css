@@ -161,6 +161,7 @@
 /* Image */
 .lity-image img {
   max-width: 100%;
+  object-fit: contain;
   display: block;
   line-height: 0;
   border: 0;
