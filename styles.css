@@ -305,7 +305,7 @@ nav {
 
 #developer {
   height: 100vh;
-  min-height: 70rem;
+  min-height: 80rem;
 }
 
 .skills {
@@ -509,6 +509,9 @@ footer p {
   .links a:hover {
     color: var(--clr-white);
   }
+
+
+
 }
 
 @media screen and (min-width: 992px) {
@@ -523,7 +526,7 @@ footer p {
 
   }
   #developer {
-    min-height: 80rem;
+    min-height: 90rem;
   }
 
 
@@ -558,7 +561,9 @@ footer p {
 
       }
 
-      /* Put media query for Dev section for mobile */
+      #developer {
+        min-height: 60rem;
+      }
 
 }
 
