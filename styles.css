@@ -267,7 +267,7 @@ nav {
   min-height: 100vh;
 }
 
-.musician__bio {
+.musician__bio, .developer__bio {
   width: 75%;
   margin: 1.5rem auto;
 }
@@ -310,16 +310,24 @@ nav {
 
 #developer {
   height: 100vh;
-
+  min-height: 70rem;
 }
 
 .skills {
-
+ margin-top: 5rem;
 }
 
-.developer-projects, .developer-photo {
+.developer-projects {
   margin-top: 5rem;
 }
+
+ .developer-photo {
+   margin-top: 5rem;
+   width: 75%;
+   max-width: 1200px;
+   height: auto;
+   margin:auto;
+ }
 
 
 /* footer */
