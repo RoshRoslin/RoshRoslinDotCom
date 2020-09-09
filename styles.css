@@ -310,7 +310,7 @@ nav {
 
 #developer {
   height: 100vh;
-  min-height: 70rem;
+  min-height: 80rem;
 }
 
 .skills {
@@ -355,7 +355,13 @@ nav {
   color: var(--clr-grey-1);
 }
 
+.row {
+  display: flex;
+}
 
+.column {
+  flex: 25%;
+}
 
 
 
