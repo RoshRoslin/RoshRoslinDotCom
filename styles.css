@@ -306,7 +306,7 @@ nav {
 
 #developer {
   height: 100vh;
-  min-height: 80rem;
+  /* min-height: 80rem; */
 }
 
 .skills {
@@ -397,6 +397,11 @@ header {
   text-transform: uppercase;
 }
 
+.title h3 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
 .title h4 {
   text-align: center;
   text-transform: uppercase;
@@ -469,6 +474,8 @@ footer p {
   .container p {
     max-width: 40rem;
   }
+
+
 }
 
 @media screen and (min-width: 800px) {
@@ -511,7 +518,9 @@ footer p {
     color: var(--clr-white);
   }
 
-
+  .btn {
+    font-size: 1.75rem;
+  }
 
 }
 
@@ -522,7 +531,7 @@ footer p {
 
 }
 
-@media screen and (min-width: 1200px) {
+/* @media screen and (min-width: 1200px) {
   .skills, .developer-projects {
 
   }
@@ -531,7 +540,7 @@ footer p {
   }
 
 
-}
+} */
 
 
 
@@ -562,9 +571,9 @@ footer p {
 
       }
 
-      #developer {
+      /* #developer {
         min-height: 60rem;
-      }
+      } */
 
 }
 
