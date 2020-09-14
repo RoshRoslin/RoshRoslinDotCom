@@ -270,11 +270,14 @@ nav {
 .images-music {
 
   display: grid;
-  grid-template-columns: 2;
-  grid-template-rows: 3;
-  grid-template-areas: "one two"
-                        "three four"
-                        "five six";
+  grid-template-columns: 1;
+  grid-template-rows: 6;
+  grid-template-areas: "one"
+                        "two"
+                        "three"
+                        "four"
+                        "five"
+                        "six"
   overflow: hidden;
   }
 
@@ -313,12 +316,20 @@ nav {
 .developer-projects {
   margin-top: 5rem;
   display: grid;
-  grid-template-columns: 3;
-  grid-template-rows: 4;
-  grid-template-areas: "titleOne titleTwo titleThree"
-                        "imageOne imageTwo imageThree"
-                        "contentOne contentTwo contentThree"
-                        "technologyOne technologyTwo technologyThree";
+  grid-template-columns: 1;
+  grid-template-rows: 12;
+  grid-template-areas: "titleOne"
+                       "imageOne"
+                       "contentOne"
+                       "technologyOne"
+                       "titleTwo"
+                        "imageTwo"
+                        "contentTwo"
+                        "technologyTwo"
+                        "titleThree"
+                         "imageThree"
+                         "contentThree"
+                         "technologyThree"
 }
 
 .item-one {
@@ -332,10 +343,11 @@ nav {
 
 .item-three {
   grid-area: contentOne;
-  
+  margin: 1rem;
 }
 .item-four {
   grid-area: technologyOne;
+  margin: 1rem;
 }
 
 .item-five {
@@ -350,11 +362,12 @@ nav {
 
 .item-seven {
   grid-area: contentTwo;
-
+  margin: 1rem;
 }
 
 .item-eight {
   grid-area: technologyTwo;
+  margin: 1rem;
 }
 
 .item-nine {
@@ -368,11 +381,12 @@ nav {
 
 .item-eleven {
   grid-area: contentThree;
-
+  margin: 1rem;
 }
 
 .item-twelve {
   grid-area: technologyThree;
+  margin: 1rem;
 }
 
 /* footer */
@@ -526,7 +540,26 @@ footer p {
   .container p {
     max-width: 40rem;
   }
+  .developer-projects {
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: 3;
+    grid-template-rows: 4;
+    grid-template-areas: "titleOne titleTwo titleThree"
+                          "imageOne imageTwo imageThree"
+                          "contentOne contentTwo contentThree"
+                          "technologyOne technologyTwo technologyThree";
+  }
+  .images-music {
 
+    display: grid;
+    grid-template-columns: 2;
+    grid-template-rows: 3;
+    grid-template-areas: "one two"
+                          "three four"
+                          "five six";
+    overflow: hidden;
+    }
 
 }
 
@@ -596,38 +629,6 @@ footer p {
 
 
 
-@media screen and (max-height: 414px) {
-
-
-    .images-music {
-      display: grid;
-      grid-template-columns: 4;
-      grid-template-rows:2;
-      grid-template-columns: fit-content(25%) fit-content(25%) fit-content(25%) fit-content(25%) ;
-
-
-      grid-template-areas: "one two three four"
-                            "five six";
-
-      }
-
-      .video1 {
-        grid-column-start: 2;
-        grid-row-start:2
-
-      }
-
-      .video2 {
-        grid-column-start: 3;
-        grid-row-start:2
-
-      }
-
-      /* #developer {
-        min-height: 60rem;
-      } */
-
-}
 
 @keyframes bounce {
   0% {
