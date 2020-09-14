@@ -79,9 +79,12 @@ body {
 ul {
   list-style-type: none;
 }
+
 a {
   text-decoration: none;
+  color: var(--clr-grey-1);
 }
+
 img:not(.logo) {
   width: 100%;
 }
@@ -314,7 +317,7 @@ nav {
 }
 
 .developer-projects {
-  margin-top: 5rem;
+  margin-top: 4rem;
   display: grid;
   grid-template-columns: 1;
   grid-template-rows: 12;
@@ -387,6 +390,19 @@ nav {
   grid-area: technologyThree;
   margin: 1rem;
 }
+
+.item-one:hover,
+.item-five:hover,
+.item-nine:hover {
+  transition: var(--transition);
+  color: var(--clr-primary-3);
+}
+
+.projects__header {
+  margin-top:4rem;
+
+}
+
 
 /* footer */
 
@@ -552,7 +568,7 @@ footer p {
     }
 
   .developer-projects {
-    margin-top: 5rem;
+    margin-top: 4rem;
     display: grid;
     grid-template-columns: 3;
     grid-template-rows: 4;
