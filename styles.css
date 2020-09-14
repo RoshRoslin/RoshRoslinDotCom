@@ -278,11 +278,6 @@ nav {
   overflow: hidden;
   }
 
-.instagram_feed {
-  overflow: hidden;
-}
-
-
 
 
 /* Embedded youtube video responsive */
@@ -318,13 +313,7 @@ nav {
   margin-top: 5rem;
 }
 
- .developer-photo {
-   margin-top: 5rem;
-   width: 75%;
-   max-width: 1200px;
-   height: auto;
-   margin:auto;
- }
+
 
 
 /* footer */
