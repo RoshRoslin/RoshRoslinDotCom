@@ -301,8 +301,9 @@ nav {
 
 
 #developer {
-  height: 100vh;
-  /* min-height: 80rem; */
+  min-height: 100vh;
+
+  margin-bottom: 5rem;
 }
 
 .skills {
@@ -311,13 +312,74 @@ nav {
 
 .developer-projects {
   margin-top: 5rem;
+  display: grid;
+  grid-template-columns: 3;
+  grid-template-rows: 4;
+  grid-template-areas: "titleOne titleTwo titleThree"
+                        "imageOne imageTwo imageThree"
+                        "contentOne contentTwo contentThree"
+                        "technologyOne technologyTwo technologyThree";
 }
 
+.item-one {
+  grid-area: titleOne;
+}
+
+.item-two {
+  grid-area: imageOne;
+
+}
+
+.item-three {
+  grid-area: contentOne;
+  
+}
+.item-four {
+  grid-area: technologyOne;
+}
+
+.item-five {
+  grid-area: titleTwo;
+}
+
+.item-six {
+  grid-area: imageTwo;
 
 
+}
+
+.item-seven {
+  grid-area: contentTwo;
+
+}
+
+.item-eight {
+  grid-area: technologyTwo;
+}
+
+.item-nine {
+  grid-area: titleThree;
+}
+
+.item-ten {
+  grid-area: imageThree;
+
+}
+
+.item-eleven {
+  grid-area: contentThree;
+
+}
+
+.item-twelve {
+  grid-area: technologyThree;
+}
 
 /* footer */
 
+#footer {
+
+}
 .links-container {
   height: 0;
   overflow: hidden;
