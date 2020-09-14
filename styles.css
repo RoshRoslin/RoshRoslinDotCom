@@ -551,39 +551,9 @@ footer p {
 
 }
 
+
+
 @media screen and (min-width: 768px) {
-  .container p {
-    max-width: 40rem;
-  }
-
-  .images-music {
-
-    display: grid;
-    grid-template-columns: 2;
-    grid-template-rows: 3;
-    grid-template-areas: "one two"
-                          "three four"
-                          "five six";
-    overflow: hidden;
-    }
-
-  .developer-projects {
-    margin-top: 4rem;
-    display: grid;
-    grid-template-columns: 3;
-    grid-template-rows: 4;
-    grid-auto-columns: 33.3%;
-    grid-template-areas: "titleOne titleTwo titleThree"
-                          "imageOne imageTwo imageThree"
-                          "contentOne contentTwo contentThree"
-                          "technologyOne technologyTwo technologyThree";
-
-  }
-
-
-}
-
-@media screen and (min-width: 800px) {
   nav {
     background: transparent;
   }
@@ -627,14 +597,43 @@ footer p {
     font-size: 1.75rem;
   }
 
+  .container p {
+    max-width: 40rem;
+  }
+
+  .images-music {
+
+    display: grid;
+    grid-template-columns: 2;
+    grid-template-rows: 3;
+    grid-template-areas: "one two"
+                          "three four"
+                          "five six";
+    overflow: hidden;
+    }
+
+  .developer-projects {
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: 3;
+    grid-template-rows: 4;
+    grid-auto-columns: 33.3%;
+    grid-template-areas: "titleOne titleTwo titleThree"
+                          "imageOne imageTwo imageThree"
+                          "contentOne contentTwo contentThree"
+                          "technologyOne technologyTwo technologyThree";
+
+  }
+
+
 }
 
-@media screen and (min-width: 992px) {
+/* @media screen and (min-width: 992px) {
   .section-center {
     width: 95vw;
   }
 
-}
+} */
 
 /* @media screen and (min-width: 1200px) {
   .skills, .developer-projects {
