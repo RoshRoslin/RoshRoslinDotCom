@@ -1,15 +1,7 @@
-/*
-===============
-Fonts
-===============
-*/
+/*Fonts */
 @import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
 
-/*
-===============
-Variables
-===============
-*/
+/* Variables */
 
 :root {
   /* dark shades of primary color*/
@@ -393,8 +385,8 @@ nav {
   visibility: hidden;
   /* width: 120px; */
   font-family: var(--ff-secondary);
-  background: var(--clr-grey-10);
-  color: var(--clr-grey-1);
+  background: var(--clr-grey-3);
+  color: var(--clr-grey-10);
   text-align: center;
   border-radius: 6px;
   padding: 5px 0;
@@ -406,7 +398,7 @@ nav {
  bottom: 25%;
  left: 50%;
  margin-left: -60px; /* Use half of the width (120/2 = 60), to center the tooltip */
-  
+
 }
 
 .tooltip:hover .tooltiptext {
