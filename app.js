@@ -72,11 +72,11 @@ scrollLinks.forEach(function(link){
       position = position + containerHeight;
     }
 
-
     setTimeout(window.scrollTo({
       left:0,
       top: position,
     }),100);
+
 
     linksContainer.style.height = 0
   });
