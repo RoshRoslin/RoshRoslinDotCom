@@ -3,6 +3,9 @@
 // slice extracts a section of a string without modifying original string
 //offsetTop - A Number, representing the top position of the element, in pixels
 
+
+
+
 // ********** set date ************
 const date = document.getElementById('date');
 date.innerHTML = new Date().getFullYear();
@@ -73,7 +76,7 @@ scrollLinks.forEach(function(link){
     }
 
       setTimeout(function () { window.scroll(0, position); }, 100);
-      
+
 
       // window.scrollTo({
       // left:0,
