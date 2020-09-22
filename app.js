@@ -72,7 +72,8 @@ scrollLinks.forEach(function(link){
       position = position + containerHeight;
     }
 
-      setTimeout(function () { window.scrollTo(0, position); }, 100);
+      setTimeout(function () { window.scroll(0, position); }, 100);
+      
 
       // window.scrollTo({
       // left:0,
