@@ -71,10 +71,13 @@ scrollLinks.forEach(function(link){
     if (navHeight > 82){
       position = position + containerHeight;
     }
-    window.scrollTo({
+
+
+    setTimeout(window.scrollTo({
       left:0,
       top: position,
-    });
+    }),100);
+
     linksContainer.style.height = 0
   });
 })
