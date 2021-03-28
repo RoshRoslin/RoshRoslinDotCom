@@ -290,7 +290,7 @@ nav {
   margin-top: 4rem;
   display: grid;
   grid-template-columns: 1;
-  grid-template-rows: 12;
+  grid-template-rows: 24;
   grid-template-areas: "titleOne"
                        "imageOne"
                        "contentOne"
@@ -303,6 +303,19 @@ nav {
                          "imageThree"
                          "contentThree"
                          "technologyThree"
+                         "titleFour"
+                       "imageFour"
+                       "contentFour"
+                       "technologyFour"
+                       "titleFive"
+                        "imageFive"
+                        "contentFive"
+                        "technologyFive"
+                        "titleSix"
+                         "imageSix"
+                         "contentSix"
+                         "technologySix"
+                         
 }
 
 .item-one {
@@ -358,6 +371,67 @@ nav {
 
 .item-twelve {
   grid-area: technologyThree;
+  margin: 1rem;
+}
+
+/* New stuff */
+
+.item-thirteen {
+  margin-top: 4rem;
+  grid-area: titleFour;
+}
+
+.item-fourteen {
+  grid-area: imageFour;
+  object-fit: cover;
+}
+
+.item-fifteen {
+  grid-area: contentFour;
+  margin: 1rem;
+}
+
+.item-sixteen {
+  grid-area: technologyFour;
+  margin: 1rem;
+}
+
+.item-seventeen {
+  margin-top: 4rem;
+  grid-area: titleFive;
+}
+
+.item-eighteen {
+  grid-area: imageFive;
+  object-fit: cover;
+}
+
+.item-nineteen {
+  grid-area: contentFive;
+  margin: 1rem;
+}
+
+.item-twenty {
+  grid-area: technologyFive;
+  margin: 1rem;
+}
+.item-twenty-one {
+  margin-top: 4rem;
+  grid-area: titleSix;
+}
+
+.item-twenty-two {
+  grid-area: imageSix;
+  object-fit: cover;
+}
+
+.item-twenty-three {
+  grid-area: contentSix;
+  margin: 1rem;
+}
+
+.item-twenty-four{
+  grid-area: technologySix;
   margin: 1rem;
 }
 
@@ -618,12 +692,16 @@ footer p {
     margin-top: 4rem;
     display: grid;
     grid-template-columns: 3;
-    grid-template-rows: 4;
+    grid-template-rows: 8;
     grid-auto-columns: 33.3%;
     grid-template-areas: "titleOne titleTwo titleThree"
                           "imageOne imageTwo imageThree"
                           "contentOne contentTwo contentThree"
-                          "technologyOne technologyTwo technologyThree";
+                          "technologyOne technologyTwo technologyThree"
+                          "titleFour titleFive titleSix"
+                          "imageFour imageFive imageSix"
+                          "contentFour contentFive contentSix"
+                          "technologyFour technologyFive technologySix"
 
   }
 
